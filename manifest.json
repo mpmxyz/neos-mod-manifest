@@ -7158,6 +7158,109 @@
                 }
             }
         },
+        "com.github.mpmxyz.documentimport": {
+            "name": "Document Import (shared code)",
+            "description": "Allows you to convert files during import",
+            "category": "Asset Importing Tweaks",
+            "website": "https://github.com/mpmxyz/NeosDocumentImport",
+            "sourceLocation": "https://github.com/mpmxyz/NeosDocumentImport",
+            "authors": {
+                "mpmxyz": {
+                    "url": "https://github.com/mpmxyz"
+                }
+            },
+            "versions": {
+                "TODO": {
+                    "releaseUrl": "https://github.com/mpmxyz/NeosMassImportPacker/releases/tag/TODO",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/mpmxyz/NeosMassImportPacker/releases/download/TODO/nml_mods/NeosDocumentImport.dll",
+                            "sha256": "TODO",
+                            "installLocation": "/nml_mods"
+                        }
+                    ]
+                }
+            }
+        },
+        "com.github.mpmxyz.documentimport.pdf": {
+            "name": "Document Import (PDF)",
+            "description": "Allows you to convert PDF files during import",
+            "category": "Asset Importing Tweaks",
+            "website": "https://github.com/mpmxyz/NeosDocumentImport",
+            "sourceLocation": "https://github.com/mpmxyz/NeosDocumentImport",
+            "authors": {
+                "mpmxyz": {
+                    "url": "https://github.com/mpmxyz"
+                }
+            },
+            "versions": {
+                "TODO": {
+                    "releaseUrl": "https://github.com/mpmxyz/NeosMassImportPacker/releases/tag/TODO",
+                    "dependencies": {
+                        "com.github.mpmxyz.documentimport": "TODO"
+                    },
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/mpmxyz/NeosMassImportPacker/releases/download/TODO/pdfium.dll",
+                            "sha256": "TODO",
+                            "installLocation": "/"
+                        },
+                        {
+                            "url": "https://github.com/mpmxyz/NeosMassImportPacker/releases/download/TODO/nml_libs/Docnet.Core.dll",
+                            "sha256": "TODO",
+                            "installLocation": "/nml_libs"
+                        },
+                        {
+                            "url": "https://github.com/mpmxyz/NeosMassImportPacker/releases/download/TODO/nml_mods/NeosDocumentImport_PDFImporter.dll",
+                            "sha256": "TODO",
+                            "installLocation": "/nml_mods"
+                        }
+                    ]
+                }
+            }
+        },
+        "com.github.mpmxyz.documentimport.svg": {
+            "name": "Document Import (SVG)",
+            "description": "Allows you to convert SVG files during import",
+            "category": "Asset Importing Tweaks",
+            "website": "https://github.com/mpmxyz/NeosDocumentImport",
+            "sourceLocation": "https://github.com/mpmxyz/NeosDocumentImport",
+            "authors": {
+                "mpmxyz": {
+                    "url": "https://github.com/mpmxyz"
+                }
+            },
+            "versions": {
+                "TODO": {
+                    "releaseUrl": "https://github.com/mpmxyz/NeosMassImportPacker/releases/tag/TODO",
+                    "dependencies": {
+                        "com.github.mpmxyz.documentimport": "TODO"
+                    },
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/mpmxyz/NeosMassImportPacker/releases/download/TODO/nml_libs/ExCSS.dll",
+                            "sha256": "TODO",
+                            "installLocation": "/nml_libs"
+                        },
+                        {
+                            "url": "https://github.com/mpmxyz/NeosMassImportPacker/releases/download/TODO/nml_libs/Fizzler.dll",
+                            "sha256": "TODO",
+                            "installLocation": "/nml_libs"
+                        },
+                        {
+                            "url": "https://github.com/mpmxyz/NeosMassImportPacker/releases/download/TODO/nml_libs/Svg.dll",
+                            "sha256": "TODO",
+                            "installLocation": "/nml_libs"
+                        },
+                        {
+                            "url": "https://github.com/mpmxyz/NeosMassImportPacker/releases/download/TODO/nml_mods/NeosDocumentImport_SVGImporter.dll",
+                            "sha256": "TODO",
+                            "installLocation": "/nml_mods"
+                        }
+                    ]
+                }
+            }
+        },
         "com.github.mpmxyz.massimportpacker": {
             "name": "Mass Import Packer",
             "description": "Allows you to reparent batch imports of images",
