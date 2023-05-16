@@ -7197,7 +7197,9 @@
                 "3.0.0": {
                     "releaseUrl": "https://github.com/mpmxyz/NeosDocumentImport/releases/tag/v3.0.0",
                     "dependencies": {
-                        "com.github.mpmxyz.documentimport": "3.0.0"
+                        "com.github.mpmxyz.documentimport": {
+                            "version": "3.0.0"
+                        }
                     },
                     "artifacts": [
                         {
@@ -7234,7 +7236,9 @@
                 "3.0.0": {
                     "releaseUrl": "https://github.com/mpmxyz/NeosDocumentImport/releases/tag/v3.0.0",
                     "dependencies": {
-                        "com.github.mpmxyz.documentimport": "3.0.0"
+                        "com.github.mpmxyz.documentimport": {
+                            "version": "3.0.0"
+                        }
                     },
                     "artifacts": [
                         {
