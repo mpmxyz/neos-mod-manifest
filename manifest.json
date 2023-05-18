@@ -7318,6 +7318,29 @@
                 }
             }
         },
+        "com.github.mpmxyz.assetimporthook": {
+            "name": "Asset Import Hook (Library)",
+            "description": "Allows other mods to be notified of asset imports",
+            "category": "Asset Importing Tweaks",
+            "website": "https://github.com/mpmxyz/NeosAssetImportHook",
+            "sourceLocation": "https://github.com/mpmxyz/NeosAssetImportHook",
+            "authors": {
+                "mpmxyz": {
+                    "url": "https://github.com/mpmxyz"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/mpmxyz/NeosAssetImportHook/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/mpmxyz/NeosAssetImportHook/releases/download/v1.0.0/NeosAssetImportHook.dll",
+                            "sha256": "928bb46d7e5bcbd31cd061c4ea9142d44e75f2d88ed99eb9aac14f0714ae5793"
+                        }
+                    ]
+                }
+            }
+        },
         "net.raemien.NeosTextureSettings": {
             "name": "NeosTextureSettings",
             "description": "Control the quality settings of loaded textures. Useful for reducing texture memory on mobile/low-end devices.",
